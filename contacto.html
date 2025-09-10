@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Technological Land</title>
+  <meta name="description" content="Ponte en contacto con migcratf, creador de Technological Land.">
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+    header { background: #0f62fe; color: white; padding: 1.5rem; text-align: center; }
+    nav { background: #333; padding: 0.8rem; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #0f62fe; }
+    .container { max-width: 900px; margin: auto; padding: 20px; background: white; border-radius: 8px;
+                 box-shadow: 0px 2px 6px rgba(0,0,0,0.1); }
+    h2 { color: #0f62fe; }
+    footer { text-align: center; padding: 1rem; background: #333; color: white; margin-top: 20px; }
+    form { display: flex; flex-direction: column; }
+    input, textarea { margin-bottom: 10px; padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+    button { background: #0f62fe; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #0043b3; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contacto</h1>
+    <p>Escríbenos en Technological Land</p>
+  </header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="sobre.html">Sobre mí</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="privacidad.html">Política de Privacidad</a>
+  </nav>
+  <div class="container">
+    <h2>Formulario de contacto</h2>
+    <p>Puedes enviarnos un mensaje completando este formulario:</p>
+    <form action="mailto:edwarddavidcontrerasurieta@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo electrónico" required>
+      <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p>O escríbenos directamente a: <a href="mailto:edwarddavidcontrerasurieta@gmail.com">edwarddavidcontrerasurieta@gmail.com</a></p>
+  </div>
+  <footer>
+    <p>&copy; 2025 Technological Land | Creado por migcratf</p>
+  </footer>
+</body>
+</html>
